@@ -1,0 +1,68 @@
+.nav-item-footer{
+    a{
+        padding: $bd-2+2;
+        color: $color-white-3;
+       
+    }
+    #twitter{
+        padding-left: 1px;
+    }
+    
+}
+
+.Contact{
+    
+    line-height: $bd-2+45;
+    @include cardfs($fs-9,$color-white-3,$fw-1);
+}
+
+.Quick{
+    line-height: $bd-2+45;
+    @include cardfs($fs-9,$color-white-3,$fw-1);
+}
+.About{
+    line-height: $bd-2+45;
+    @include cardfs($fs-9,$color-white-3,$fw-1);
+}
+
+.Newsletter{
+    line-height: $bd-2+45;
+    @include cardfs($fs-9,$color-white-3,$fw-1);
+    h1{
+        margin-left: -23px;
+    }
+}
+
+footer{
+    background-image: url(../../img/footer_background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 440px;
+  
+
+    li{
+       list-style-type: none;
+    }
+    h1{
+        color: $color-white-3;
+        padding-left: $bd-3+5;
+    }
+}
+
+@include Reponsive("small"){
+    footer{
+       margin-top: 00px;
+       width: 100%;
+       height: 1800px;
+    }
+
+    .footer-top1{
+        margin-top: 600px;
+    }
+
+    .Newsletter{
+        h1{
+            margin-left: -23px;
+        }
+    }
+}
